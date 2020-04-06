@@ -52,6 +52,5 @@ namespace Stackoverflow {
         Downvotes.RemoveAt(index);
       }
     }
-
   }
 }

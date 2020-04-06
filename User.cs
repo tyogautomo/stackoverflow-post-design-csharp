@@ -1,7 +1,6 @@
 using System.Collections.Generic;
 
 namespace Stackoverflow {
-
   public class User {
     public int Id { get; private set; }
     public string Name { get; private set; }
@@ -16,7 +15,5 @@ namespace Stackoverflow {
     public void CreatePost(Post post) {
       Posts.Add(post);
     }
-
   }
-
 }
